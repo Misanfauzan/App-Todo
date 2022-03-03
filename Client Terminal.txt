@@ -1,0 +1,27 @@
+{% comment %} Manual Install {% endcomment %}
+npm install -g expo-cli
+expo init client
+
+cd client
+
+{% comment %} {% endcomment %}
+npm install @react-navigation/stack
+expo install react-native-gesture-handler
+
+npm install @react-navigation/bottom-tabs
+npm i @expo/vector-icons
+
+npm install axios
+
+npm install react-native-elements
+
+npm install react-query
+
+npm install native-base
+expo install react-native-svg
+expo install react-native-safe-area-context
+
+npm i expo-app-loading
+
+npm install @react-navigation/native
+expo install react-native-screens react-native-safe-area-context

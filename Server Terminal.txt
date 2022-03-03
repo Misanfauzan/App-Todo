@@ -1,0 +1,23 @@
+npm install -g npm
+npm init
+
+npm install express --save
+npm install --save-dev nodemon
+npm install --save sequelize
+npm install sequelize-cli
+npm install mysql2
+{% comment %} npm i multer
+npm i joi
+npm i jsonwebtoken
+npm i dotenv
+npm i bcrypt
+npm i concurrently
+npm i cors
+
+npm run dev
+
+npx sequelize init
+npx sequelize-cli model:generate --name todo --attributes title:string,isDone:boolean
+
+npx sequelize db:migrate
+npx sequelize db:migrate:undo:all 
